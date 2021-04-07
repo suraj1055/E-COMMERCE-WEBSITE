@@ -1,0 +1,117 @@
+.container{
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-3{
+    display: flex;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+.heading{
+    font-family: "Raleway-bold";
+    text-align: center;
+    position: relative;
+    margin-bottom: 6rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.heading::after{
+    content:'';
+    display: block;
+    width: 100%;
+    height: 30px;
+    background-image: url(../icons/hr.svg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    bottom: -40px;
+}
+
+.magic-shadow{
+    position: relative;
+    background: var(--heaven);
+}
+
+.magic-shadow:after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 73px;
+    background-image: url(../icons/shadow.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    bottom: -24px;
+    position: absolute;
+    z-index: -1;
+}
+
+.btn-1{
+    padding: 0.65rem 0.75rem;
+    border-radius: 4px;
+    border: none;
+    line-height: 0.8;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: var(--primary);
+    color: var(--pure);
+}
+
+.btn-2{
+    padding: 0.65rem 0.75rem;
+    border-radius: 4px; 
+    border: none;
+    line-height: 0.8;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background-color: var(--secondary);
+    color: var(--pure);
+}
+
+.btn-1:hover{
+    transform: scale(0.98);
+    background-color: var(--pure);
+    color: var(--primary);
+    border: 0.5px solid var(--primary);
+}
+
+.btn-2:hover{
+    transform: scale(0.98);
+    background-color: var(--pure);
+    color: var(--secondary);
+    border: 0.5px solid var(--secondary);
+}
+
+.flex-1{
+    flex: 1;
+}
+
+.text-primary{
+    color:var(--primary);
+}
+
+.text-pure{
+    color: var(--heaven);
+}
