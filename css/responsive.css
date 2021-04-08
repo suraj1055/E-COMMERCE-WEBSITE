@@ -1,0 +1,10 @@
+/* RESPONSIVE DESIGN */
+@media (max-width: 900px){
+    .nav-trigger{
+        display: block;
+    }
+
+    header.topbar, nav{
+        display: none;
+    }
+}
