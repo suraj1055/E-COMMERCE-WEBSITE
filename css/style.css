@@ -41,7 +41,7 @@
 
 body{
     -webkit-font-smoothing: antialiased;
-    height: 4000px;
+    height: 4479px;
     font-family: "Raleway-Regular";
 }
 
@@ -60,7 +60,7 @@ body{
 
 /* Media Queries  */
 
-@media (min-width: 300px){
+/* @media (min-width: 300px){
     .container{
         max-width: 250px;
     }
@@ -70,7 +70,7 @@ body{
     .container{
         max-width: 450px;
     }
-}
+} */
 
 @media (min-width: 900px){
     .container{
